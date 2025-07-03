@@ -14,13 +14,12 @@ class Menu:
         self.rect = self.surf.get_rect(left=0, top=0)
 
     def run(self, ):
-        pygame.mixer_music.load('./asset/Menu.wav')
+        pygame.mixer_music.load('./asset/Menu.mp3')
         pygame.mixer_music.play(-1)
-        pygame.mixer.music.set_volume(0.1)
         while True:
             self.window.blit(source=self.surf, dest=self.rect)
-            self.menu_text(50, "Mountain", COLOR_ORANGE, ((WIN_WIDTH / 2), 70))
-            self.menu_text(50, "Shooter", COLOR_ORANGE, ((WIN_WIDTH / 2), 110))
+            self.menu_text(50, "Mountain", COLOR_WHITE, ((WIN_WIDTH / 2), 70))
+            self.menu_text(50, "Shooter", COLOR_WHITE, ((WIN_WIDTH / 2), 110))
 
             for i in range(len(MENU_OPTION)):
                 self.menu_text(20, MENU_OPTION[i], COLOR_WHITE, ((WIN_WIDTH / 2), 200 + 25 * i))
