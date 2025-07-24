@@ -140,3 +140,20 @@ TIMEOUT_LEVEL = 20000  # 20s
 # W
 WIN_WIDTH = 576
 WIN_HEIGHT = 324
+
+# S
+SCORE_POS = {'Title': (WIN_WIDTH / 2, 50),
+             'EnterName': (WIN_WIDTH / 2, 80),
+             'Label':  (WIN_WIDTH / 2, 110),
+             'Name':  (WIN_WIDTH / 2, 120),
+             0:  (WIN_WIDTH / 2, 130),
+             1: (WIN_WIDTH / 2, 150),
+             2: (WIN_WIDTH / 2, 170),
+             3: (WIN_WIDTH / 2, 190),
+             4: (WIN_WIDTH / 2, 210),
+             5: (WIN_WIDTH / 2, 230),
+             6: (WIN_WIDTH / 2, 250),
+             7: (WIN_WIDTH / 2, 270),
+             8: (WIN_WIDTH / 2, 290),
+             9: (WIN_WIDTH / 2, 310),
+}
